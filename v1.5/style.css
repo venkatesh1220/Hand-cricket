@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+}
+
+#human {
+    width: 40%;
+    height: 300px;
+}
+
+#comp {
+    width: 40%;
+    height: 300px;
+}
+
+.players {
+    margin: 30px 30px;
+    text-align: center;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+
+#score {
+    text-align: center;
+    width: 30ch;
+    padding: 10px;
+    height: auto;
+    margin: auto;
+    background: green;
+    border-radius: 10px;
+}
+
+.choice {
+    font-size: 80px;
+}
+
+#buttons {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin: 20px;
+    justify-content: space-around;
+}
+
+button {
+    height: 50px;
+    aspect-ratio: 1/1;
+    border-radius: 5px;
+}
+img{
+    width:100px;
+    aspect-ratio:1/1;
+    background-size: contain;
+}
